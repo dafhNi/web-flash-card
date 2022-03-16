@@ -1,0 +1,16 @@
+{% include "header.html" %}
+
+<div class="flash-card">
+   <img src="{{ url_for('static', filename='images/card_back.png') }}" alt="" class="img">
+    <div class="word">{{ english }}</div>
+</div>
+
+
+<div class="buttons">
+    <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/right.png') }}" alt="" class="btn"></a>
+<!--    <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/wrong.png') }}" alt="" class="btn"></a>-->
+
+</div>
+
+
+{% include "footer.html" %}

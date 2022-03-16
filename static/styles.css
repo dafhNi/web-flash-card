@@ -1,0 +1,28 @@
+body {
+    background-color: #B1DDC6;
+}
+.flash-card{
+    padding-top: 2%;
+   position: relative;
+   width: 100%;
+
+}
+.img{
+  width:100%;
+}
+
+.word {
+    position:absolute;
+    font-size:2em;
+    width:90%;
+    text-align:center;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    width:25%;
+}
