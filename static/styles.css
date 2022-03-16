@@ -13,7 +13,8 @@ body {
 
 .word {
     position:absolute;
-    font-size:4em;
+    background-color:red;
+    font-size:5em;
     width:90%;
     text-align:center;
    top: 40%;

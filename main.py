@@ -7,15 +7,11 @@ import time
 app = Flask(__name__)
 Bootstrap(app)
 
-SECONDS =2
+SECONDS = 2
 next_card = True
 data = pandas.read_csv("data/nihongo_words.csv")
 to_learn = data.to_dict(orient="records")
 current_card = {}
-
-
-def remove_card():
-    to_learn.remove(current_card)
 
 
 @app.route("/")
@@ -30,11 +26,8 @@ def home():
 def flip():
     global current_card
     english = current_card['english']
-    remove_card()
+    to_learn.remove(current_card)
     return render_template("flip.html", english=english)
-
-
-
 
 
 if __name__ == "__main__":
