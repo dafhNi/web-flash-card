@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d63d73e-8340-4f24-8021-60ba958c42e6" name="Changes" comment="big font">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="0d63d73e-8340-4f24-8021-60ba958c42e6" name="Changes" comment="remove delete current card">
       <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647423865000</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="debug remove card error">
+      <created>1647425335809</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647425335809</updated>
+    </task>
+    <task id="LOCAL-00009" summary="remove delete current card">
+      <created>1647425578477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647425578477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +162,8 @@
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="add requirements" />
     <MESSAGE value="big font" />
-    <option name="LAST_COMMIT_MESSAGE" value="big font" />
+    <MESSAGE value="debug remove card error" />
+    <MESSAGE value="remove delete current card" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove delete current card" />
   </component>
 </project>
