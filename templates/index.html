@@ -2,12 +2,12 @@
 
 <div class="flash-card">
    <img src="{{ url_for('static', filename='images/card_front.png') }}" alt="" class="img">
-    <div class="word">{{ nihongo }}</div>
+    <div class="word">{{ nihongo }} - {{ english }}</div>
 </div>
 
 
 <div class="buttons">
-    <a href="{{ url_for('flip') }}"><img src="{{ url_for('static', filename='images/right.png') }}" alt="" class="btn"></a>
+    <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/right.png') }}" alt="" class="btn"></a>
 <!--    <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/wrong.png') }}" alt="" class="btn"></a>-->
 
 </div>

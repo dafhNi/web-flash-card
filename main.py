@@ -19,14 +19,18 @@ def home():
     global current_card
     current_card = random.choice(to_learn)
     nihongo = current_card['nihongo']
-    return render_template("index.html", nihongo=nihongo)
+    english = current_card['english']
+
+    return render_template("index.html", nihongo=nihongo, english=english)
 
 
 @app.route("/flip")
 def flip():
     global current_card
     english = current_card['english']
-    return render_template("flip.html", english=english)
+    nihongo = current_card['nihongo']
+    print(current_card)
+    return render_template("flip.html", nihongo=nihongo, english=english)
 
 
 if __name__ == "__main__":
