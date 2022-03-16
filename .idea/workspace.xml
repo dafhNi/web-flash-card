@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d63d73e-8340-4f24-8021-60ba958c42e6" name="Changes" comment="remove red background on text">
+    <list default="true" id="0d63d73e-8340-4f24-8021-60ba958c42e6" name="Changes" comment="remove flip page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/flip.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647425671258</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove flip page">
+      <created>1647428921638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647428921638</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +181,7 @@
     <MESSAGE value="debug remove card error" />
     <MESSAGE value="remove delete current card" />
     <MESSAGE value="remove red background on text" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove red background on text" />
+    <MESSAGE value="remove flip page" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove flip page" />
   </component>
 </project>

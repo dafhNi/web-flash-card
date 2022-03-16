@@ -29,7 +29,6 @@ def flip():
     global current_card
     english = current_card['english']
     nihongo = current_card['nihongo']
-    print(current_card)
     return render_template("flip.html", nihongo=nihongo, english=english)
 
 
