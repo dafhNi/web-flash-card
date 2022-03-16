@@ -26,7 +26,6 @@ def home():
 def flip():
     global current_card
     english = current_card['english']
-    to_learn.remove(current_card)
     return render_template("flip.html", english=english)
 
 
